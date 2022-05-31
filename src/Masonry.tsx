@@ -29,7 +29,7 @@ export function Masonry({
   const [styled_children, setStyled_children] = useState<any[]>([]);
   const [re_arranged_elements, setRe_arranged_elements] = useState<any[]>([]);
   const [masonry_style, setMasonryStyle] = useState<any>({
-    columns: columnCounts['default'] | 3,
+    columns: columnCounts['default'] || 3,
     columnGap: columnGap
   });
 
@@ -92,7 +92,7 @@ export function Masonry({
         } else {
           setMasonryStyle({
             ...masonry_style,
-            columns: columnCounts['default'] | 3
+            columns: columnCounts['default'] || 3
           });
           updated = true;
         }
