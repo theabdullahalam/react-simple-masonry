@@ -30,7 +30,7 @@ export function Masonry({
   const [re_arranged_elements, setRe_arranged_elements] = useState<any[]>([]);
   const [masonry_style, setMasonryStyle] = useState<any>({
     columns: columnCounts['default'] || 3,
-    columnGap: columnGap
+    columnGap: columnGap || '1rem'
   });
 
   const [child_style, setChild_style] = useState<any>({
