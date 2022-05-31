@@ -1,5 +1,5 @@
 # React Simple Masonry
-Standalone simple masonry component for rendering responsive masonry layouts.
+Simple standalone wrapper component for rendering responsive masonry layouts.
 
 ## Installation
 ```shell
